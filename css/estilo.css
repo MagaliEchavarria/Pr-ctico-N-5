@@ -1,0 +1,203 @@
+@font-face {
+  font-family: "minion";
+  src: url("../Fuente/in-app-ui.ttf") format("truetype");
+
+}
+@import url('https://fonts.googleapis.com/css2? family=Rubik:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2? family=Special+Elite&display=swap');
+body {
+  background-image: url(../Imagenes/fondo.jpeg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.titulo{  color: #ECEFF1;
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: underline;
+  font-family: "Special Elite", cursive;}
+
+header {
+background: rgba(191, 54, 12,0.7);
+width: 50vh;
+clear: both;
+content: ´´ ;
+display: table;
+}
+
+.recetas{
+  width: 200vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+
+}
+nav{
+  float: right;
+}
+ul{list-style: none;margin: 0;padding: 0;}
+nav ul li {
+  list-style: none;
+display: flex;
+justify-content:space-around;
+margin: 0vh;
+padding: 2vh ;
+float: right;
+  position: relative;
+  font-family: "Special Elite", cursive;
+}
+nav ul li a{
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+
+}
+nav ul li a:hover{
+  background-color: black;
+
+}
+
+object{width: auto;;}
+section {
+  float: left;
+  width: 100%;
+}
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  bottom: 30px;
+  right: 30px;
+border-radius: 50px;
+}
+.btn-wsp:hover{width: 5%;}
+
+h2 {
+  color: #ECEFF1;
+  font-size: xx-large;
+  text-align: center;
+  text-decoration: underline;
+}
+
+ h3 {
+   color: #ECEFF1;
+   font-size: x-large;
+   text-align: center;
+   text-decoration: underline;
+ }
+ h4 {
+   color: #ECEFF1;
+   font-size: large;
+   text-align: left;
+   text-decoration: underline;
+
+ }
+
+ .btn-ins{
+   display: flex;
+   justify-content: flex-start;
+   position: static;
+   width: 55px;
+   bottom: 30px;
+   right: 30px;
+ border-radius: 50px;
+ background-color: white;
+
+ }
+.btn-fb {
+  display: flex;
+  justify-content:center;
+
+  width: 55px;
+}
+
+.Ingredientes{
+  border: 2vh; solid;
+  margin-left: 30vh;
+margin-right: 30vh;
+text-indent: 1.5em;
+  border-color: black;
+background-color: rgba(191, 54, 12, 0.5);
+color: white;
+border-left: 200vh;
+font-family: "Rubik", sans-serif;
+}
+
+.Imagen{
+width: 50vh;
+height: 50vh;
+display: flex;
+justify-content: flex-end;}
+
+.Imagen:hover{
+filter:grayscale(80%);
+  }
+.juntar{
+  display:flex;
+  justify-content:space-between;
+}
+.columna{
+
+ border: 2px solid black;
+text-indent: 1.5em;
+color: #ECEFF1;
+}
+.video{display: flex;
+justify-content: center;}
+
+.Procedimiento {
+  border: 2vh; solid;
+  margin-left: 20vh;
+margin-right: 20vh;
+text-indent: 1.5em;
+  border-color: black;
+background-color: rgba(191, 54, 12, 0.5);
+color: white;
+border-left: 200vh;
+font-family: "Rubik", sans-serif;
+}
+
+
+.container-form{width: 100%;
+max-width: 1100px;
+margin: auto;
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-gap: 50vh;
+margin-top: 90vh;}
+
+.container-form h2{margin-bottom: 15vh;
+font-size: 35vh;}
+
+.container-form p{font-size: 17vh;
+line-height: 1.6;
+margin-bottom: 30px;}
+
+.Formulario{
+  width: 400px;
+  background-color: rgba(191, 54, 12, 0.5);
+margin: auto;
+margin-top: 100px;
+border-radius: 10px;
+padding-left: 10px;
+padding-right: 10px;
+
+
+}
+.texto{display: flex;
+  justify-content: flex-start;
+color: #ECEFF1;
+background-color: rgba(191, 54, 12, 0.5);
+border: 2vh; solid;
+margin-left: 5vh;
+margin-right: 15vh;
+margin-bottom: 5px;
+border: 1px solid rgba(191, 54, 12, 0.5);;
+font-family: "Rubik", sans-serif;
+text-indent: 1.5rem;
+}
+
+.enviar{font-family: serif;
+color: white;}
+.mapa{background-color: rgba(191, 54, 12, 0.5);}
